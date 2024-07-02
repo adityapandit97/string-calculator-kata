@@ -1,4 +1,5 @@
 require 'rspec'
+require_relative '../lib/delimiter_parser'
 
 RSpec.describe DelimiterParser do
   let(:parser) { DelimiterParser.new }

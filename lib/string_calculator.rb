@@ -1,3 +1,6 @@
+require_relative 'delimiter_parser'
+require_relative 'negative_number_error'
+
 class StringCalculator
   def initialize(delimiter_parser = DelimiterParser.new)
     @delimiter_parser = delimiter_parser

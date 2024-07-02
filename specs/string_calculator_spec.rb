@@ -1,4 +1,6 @@
 require 'rspec'
+require_relative '../lib/string_calculator'
+require_relative '../lib/negative_number_error'
 
 RSpec.describe StringCalculator do
   let(:calculator) { StringCalculator.new }
